@@ -1,0 +1,104 @@
+.root {
+    -fx-background-color: #eef2f6;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.top-header {
+    -fx-background-color: #ffffff;
+    -fx-padding: 17px 28px;
+    -fx-border-color: transparent transparent #e4e9ee transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.brand-mark {
+    -fx-background-color: #e87516;
+    -fx-background-radius: 7px;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 10px;
+}
+
+.brand-subtitle {
+    -fx-text-fill: #33404b;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: transparent #e4e9ee transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-caption, .eyebrow {
+    -fx-text-fill: #87929c;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 1px;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 7px;
+    -fx-text-fill: #44515c;
+    -fx-font-size: 13px;
+    -fx-padding: 11px 12px;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #fff3e8;
+    -fx-text-fill: #c85d0b;
+}
+
+.nav-button.active {
+    -fx-background-color: #fff0e2;
+    -fx-text-fill: #d96810;
+    -fx-font-weight: bold;
+}
+
+.page-content {
+    -fx-background-color: #eef2f6;
+}
+
+.page-title {
+    -fx-text-fill: #26343f;
+    -fx-font-size: 29px;
+    -fx-font-weight: bold;
+}
+
+.page-intro {
+    -fx-text-fill: #67747f;
+    -fx-font-size: 15px;
+}
+
+.feature-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e1e7ec;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+}
+
+.feature-card:hover {
+    -fx-border-color: #e87516;
+    -fx-effect: dropshadow(gaussian, rgba(28, 43, 54, 0.10), 14, 0.12, 0, 4);
+}
+
+.card-title {
+    -fx-text-fill: #2f3d48;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.card-description {
+    -fx-text-fill: #6d7983;
+    -fx-font-size: 13px;
+}
+
+.card-action {
+    -fx-text-fill: #df6c12;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
